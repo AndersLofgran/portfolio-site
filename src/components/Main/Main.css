@@ -1,0 +1,18 @@
+.main {
+  height: 100%;
+}
+  .main img {
+    z-index: -1;
+    position: fixed;
+    background: url('../../assets/bkg_overlay.png'), linear-gradient(whitesmoke, #002447);
+    transform: rotate(180deg);
+    margin: -100px 0 0 0;
+  }
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+  padding: 100px 25%;
+  font-size: 36px;
+}
