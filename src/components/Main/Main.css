@@ -1,5 +1,7 @@
 .main {
-  height: 100%;
+  display: flex;
+  justfiy-content: space-between;
+  width: 100vw;
 }
   .main img {
     z-index: -1;
@@ -13,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   color: whitesmoke;
-  padding: 100px 25%;
+  padding: 100px;
+  wdith: 100%;
   font-size: 36px;
 }
