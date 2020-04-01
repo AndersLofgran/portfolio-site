@@ -1,8 +1,8 @@
 .main {
   display: flex;
   justify-content: space-between;
-  width: 100vw;
 }
+
   .main img {
     z-index: -1;
     position: fixed;
@@ -11,11 +11,18 @@
     margin: -100px 0 0 0;
   }
 
-.landing {
-  min-height: calc(100vh - 100px);
+.main-content {
   display: flex;
-  justify-content: space-between;
+}
+
+.page {
+  min-height: calc(100vh - 100px);
+  min-width: 100vw;
+  display: flex;
   color: whitesmoke;
-  padding: 100px;
+  padding: 100px 200px;
   font-size: 36px;
 }
+  .page h3 {
+    color: grey;
+  }
