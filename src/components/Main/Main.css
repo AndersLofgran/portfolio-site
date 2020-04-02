@@ -19,10 +19,9 @@
   min-height: calc(100vh - 100px);
   min-width: 100vw;
   display: flex;
+  justify-content: space-evenly;
   color: whitesmoke;
   padding: 100px 200px;
   font-size: 36px;
 }
-  .page h3 {
-    color: grey;
-  }
+  .page h3 { color: grey; }
