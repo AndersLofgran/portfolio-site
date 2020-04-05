@@ -12,9 +12,12 @@ import './Portfolio.css'
 
 const useStyles = makeStyles({
   root: {
-    height: 550,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    // height: 550,
     maxWidth: 350,
-    margin: 20
+    margin: 10
   },
   media: {
     height: 350,
@@ -24,9 +27,13 @@ const useStyles = makeStyles({
 export default function Portfolio() {
   const classes = useStyles();
   const projects = [
-    {title: 'flyFPV - eCommerce Website', desc: 'An site for FPV/Drone hobbyists to browse and buy parts or share their builds with the FPV community.', img: flyFPV_preview},
-    {title: 'group thing here', desc: 'such an amazing group project', img: ''},
-    {title: 'myBG - Save Your Favorite Board Games', desc: '', img: ''}
+    {title: 'eCommerce Website', desc: 'An site for FPV/Drone hobbyists to browse and buy parts or share their builds with the FPV community.', img: flyFPV_preview},
+    {title: 'eCommerce Website', desc: 'An site for FPV/Drone hobbyists to browse and buy parts or share their builds with the FPV community.', img: flyFPV_preview},
+    {title: 'eCommerce Website', desc: 'An site for FPV/Drone hobbyists to browse and buy parts or share their builds with the FPV community.', img: flyFPV_preview},
+    {title: 'eCommerce Website', desc: 'An site for FPV/Drone hobbyists to browse and buy parts or share their builds with the FPV community.', img: flyFPV_preview}
+    // {title: 'Game Companion App', desc: 'such an amazing group project', img: ''},
+    // {title: 'InstaClone', desc: 'You thought you liked Facebook, Instagram, or SnapChat? Take a look at this beauty right here.', img: ''},
+    // {title: 'Board Game Keeper', desc: '', img: ''}
   ]
 
   let projectCards = projects.map(project => {
