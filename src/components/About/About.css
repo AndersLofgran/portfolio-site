@@ -1,0 +1,8 @@
+.about {
+  display: flex;
+}
+
+.about-image {
+  height: 300px;
+  margin: 10px;
+}

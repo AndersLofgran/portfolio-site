@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import bkg from '../../assets/bkg_overlay.png'
-import codeIcon from '../../assets/code_symbol.png'
 import DoubleArrowRoundedIcon from '@material-ui/icons/DoubleArrowRounded'
 import Portfolio from '../Portfolio/Portfolio'
 import About from '../About/About'

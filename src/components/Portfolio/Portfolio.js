@@ -15,8 +15,7 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    // height: 550,
-    maxWidth: 350,
+    width: 350,
     margin: 10
   },
   media: {
