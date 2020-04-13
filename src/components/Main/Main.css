@@ -1,14 +1,15 @@
 .main {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
   .bkg {
     z-index: -2;
     position: fixed;
     background: url('../../assets/bkg_overlay.png'), linear-gradient(whitesmoke, #002447);
+    margin: -100px -5px 0 0;
     transform: rotate(180deg);
-    margin: -100px 0 0 0;
   }
 
   /* .code-icon {

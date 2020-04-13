@@ -15,4 +15,9 @@
 }
 .header-item {
   margin: 0 30px;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid whitesmoke;
 }
