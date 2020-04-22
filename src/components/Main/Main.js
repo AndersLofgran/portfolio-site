@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import bkg from '../../assets/bkg_overlay.png'
 import DoubleArrowRoundedIcon from '@material-ui/icons/DoubleArrowRounded'
 import Header from '../Header/Header'
 import Portfolio from '../Portfolio/Portfolio'
@@ -7,7 +6,7 @@ import About from '../About/About'
 import Contact from '../Contact/Contact'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faLayerGroup } from '@fortawesome/free-solid-svg-icons'
 import './Main.css'
 
 const Main = () => {
@@ -26,8 +25,7 @@ const Main = () => {
               currentPage={page} />
 
       <div className="main" >
-        <img src={bkg} alt='Background' className='bkg'/>
-        {/* <FontAwesomeIcon icon={faCode} className='code-icon'/> */}
+        <FontAwesomeIcon icon={faCode} className='code-icon' style={{transform: `translateX(calc(${page} * 2vw + 38vw))`, transition: '1s'}}/>
 
         {page === 0 ?
             <DoubleArrowRoundedIcon style={{zIndex: '2', position: 'fixed', top: '0', left: '100px', margin: 'calc(50vh - 30px) 0', transition: '1s', opacity: '0', transform: 'rotate(180deg)', fontSize: '60px'}}/>
@@ -37,12 +35,14 @@ const Main = () => {
 
         <div className='main-content' style={{transform: `translateX(calc(${-page} * 100vw))`, transition: '1s'}}>
           <div className='page'>
-            <div>
-              <h3>I'm a</h3>
-              <h1>Full</h1>
-              <h1>Stack</h1>
-              <h1>Web</h1>
-              <h1>Developer</h1>
+            <div className='home-page'>
+              <FontAwesomeIcon icon={faLayerGroup} className='stack-icon'/>
+              <div>
+                <h1>Anders</h1>
+                <h1>Lofgran</h1>
+                <h3><a href="https://www.youtube.com/watch?v=H4M19g0xVJs" target='_blank noopener noreferrer' style={{textDecoration: 'none'}}>Full Stack</a></h3>
+                <h3><a href="https://www.youtube.com/watch?v=H4M19g0xVJs" target='_blank noopener noreferrer' style={{textDecoration: 'none'}}>Web Developer</a></h3>
+              </div>
             </div>
           </div>
           <div className='page'> <Portfolio /> </div>

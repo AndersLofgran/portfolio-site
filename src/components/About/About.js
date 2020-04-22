@@ -18,7 +18,7 @@ export default function About() {
         coding all day, engrossed in a challenging problem or merely excited to see the end result.
         </h4>
         <br></br>
-        <p>If I'm not coding, I build & fly <a href='https://www.youtube.com/watch?v=UY8xjlM1Owo' target='_blank'>FPV drones</a>, play board games and video games with friends, and rock climb.</p>
+        <p>If I'm not coding, I build & fly <a href='https://www.youtube.com/watch?v=UY8xjlM1Owo' target='_blank noopener noreferrer'>FPV drones</a>, play board games and video games with friends, and rock climb.</p>
       </div>
     </div>
   )
