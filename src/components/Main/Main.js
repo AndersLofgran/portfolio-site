@@ -38,10 +38,10 @@ const Main = () => {
             <div className='home-page'>
               <FontAwesomeIcon icon={faLayerGroup} className='stack-icon'/>
               <div>
-                <h1>Anders</h1>
+                <h1 style={{paddingLeft: '10px'}}>Anders</h1>
                 <h1>Lofgran</h1>
-                <h3><a href="https://www.youtube.com/watch?v=H4M19g0xVJs" target='_blank noopener noreferrer' style={{textDecoration: 'none'}}>Full Stack</a></h3>
-                <h3><a href="https://www.youtube.com/watch?v=H4M19g0xVJs" target='_blank noopener noreferrer' style={{textDecoration: 'none'}}>Web Developer</a></h3>
+                <h3><a href="https://www.youtube.com/watch?v=H4M19g0xVJs" target='_blank noopener noreferrer' style={{textDecoration: 'none', paddingLeft: '10px'}}>Full Stack</a></h3>
+                <h3><a href="https://www.youtube.com/watch?v=H4M19g0xVJs" target='_blank noopener noreferrer' style={{textDecoration: 'none', paddingLeft: '10px'}}>Web Developer</a></h3>
               </div>
             </div>
           </div>
