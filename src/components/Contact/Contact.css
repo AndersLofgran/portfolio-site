@@ -1,0 +1,78 @@
+.contact-card {
+  height: 100%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.contact-card h4 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.form-inputs {
+  padding: 10px;
+}
+
+.form-inputs * {
+  margin: 10px 0;
+}
+
+.form-inputs input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.form-inputs input:active, .form-inputs input:focus {
+  outline: none;
+  caret-color: whitesmoke;
+}
+
+.form-inputs textarea {
+  width: 100%;
+  height: 300px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.form-inputs textarea:active, .form-inputs textarea:focus {
+  outline: none;
+  caret-color: whitesmoke;
+}
+
+.contact-icons {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+}
+
+.contact-icons * {
+  margin: 20px;
+  font-size: 100px;
+}
+
+.contact-icons *:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Contact.css.map */
