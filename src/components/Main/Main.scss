@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+  .code-icon {
+    position: fixed;
+    transform: translate(0, 10vh);
+    font-size: 1000px;
+    opacity: 0.5;
+    filter: blur(2px);
+  }
+  .stack-icon {
+    position: absolute;
+    font-size: 320px;
+    transform: translateX(-520px);
+    margin-top: 45px;
+  }
+
+.main-content {
+  display: flex;
+  height: 100%;
+}
+
+.page {
+  height: calc(100vh - 100px);
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  padding: 100px 200px;
+  font-size: 36px;
+}
+  .page h1 { font-size: 140px; }
+  .page h3 { color: rgba(255, 255, 255, 0.5); }
+
+.home-page {
+  display: flex;
+  justify-content: center;
+}
