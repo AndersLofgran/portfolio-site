@@ -6,8 +6,7 @@
 
   .code-icon {
     position: fixed;
-    transform: translate(0, 10vh);
-    font-size: 1000px;
+    font-size: 900px;
     opacity: 0.5;
     filter: blur(2px);
   }
@@ -15,7 +14,6 @@
     position: absolute;
     font-size: 320px;
     transform: translateX(-520px);
-    margin-top: 45px;
   }
 
 .main-content {
@@ -24,7 +22,7 @@
 }
 
 .page {
-  height: calc(100vh - 100px);
+  height: 100vh;
   min-width: 100vw;
   display: flex;
   justify-content: space-evenly;
@@ -37,5 +35,7 @@
 
 .home-page {
   display: flex;
+  align-items: center;
   justify-content: center;
+  width: 100%;
 }

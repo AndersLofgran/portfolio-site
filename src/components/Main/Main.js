@@ -25,7 +25,7 @@ const Main = () => {
               currentPage={page} />
 
       <div className="main" >
-        <FontAwesomeIcon icon={faCode} className='code-icon' style={{transform: `translateX(calc(${page} * 2vw + 38vw))`, transition: '1s'}}/>
+        <FontAwesomeIcon icon={faCode} className='code-icon' style={{transform: `translate(calc(${page} * 2vw + 38vw), 200px)`, transition: '1s'}}/>
 
         {page === 0 ?
             <DoubleArrowRoundedIcon style={{zIndex: '2', position: 'fixed', top: '0', left: '100px', margin: 'calc(50vh - 30px) 0', transition: '1s', opacity: '0', transform: 'rotate(180deg)', fontSize: '60px'}}/>
