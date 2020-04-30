@@ -23,7 +23,7 @@ A wizard to generate this code is at http://www.jottings.com/obfuscator/ */}
   let shift = coded.length
   let link = ""
   for (let i=0; i<coded.length; i++) {
-    if (key.indexOf(coded.charAt(i)) == -1) {
+    if (key.indexOf(coded.charAt(i)) === -1) {
       let ltr = coded.charAt(i)
       link += (ltr)
     }
