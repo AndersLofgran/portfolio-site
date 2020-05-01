@@ -1,18 +1,11 @@
 /* eslint-disable no-lone-blocks */
-import React, { useState } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithubSquare} from '@fortawesome/free-brands-svg-icons'
 import { faFileAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import './Contact.scss'
 
 export default function Contact() {
-  const [subject, setSubject] = useState('')
-  const [body, setBody] = useState('')
-
-  const handleInput = (val, type) => {
-    if(type === 'subject') setSubject(val)
-    if(type === 'body') setBody(val)
-  }
 
 {/* Email obfuscator script 2.1 by Tim Williams, University of Arizona
 Random encryption key feature coded by Andrew Moulden
