@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import flyfpv_preview from '../../assets/flyfpv_preview.png'
 import flyfpv_gif from '../../assets/flyfpv_gif.gif'
 import smashjam_preview from '../../assets/smashjam_preview.png'
 import smashjam_gif from '../../assets/smashjam_gif.gif'
