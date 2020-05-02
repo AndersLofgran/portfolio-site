@@ -7,7 +7,7 @@ import Contact from '../Contact/Contact'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faLayerGroup } from '@fortawesome/free-solid-svg-icons'
-import './Main.css'
+import './Main.scss'
 
 const Main = () => {
   const [page, setPage] = useState(0)

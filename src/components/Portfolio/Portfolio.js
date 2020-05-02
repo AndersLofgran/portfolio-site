@@ -5,7 +5,7 @@ import smashjam_preview from '../../assets/smashjam_preview.png'
 import smashjam_gif from '../../assets/smashjam_gif.gif'
 import bgwishlist_preview from '../../assets/bgwishlist_preview.png'
 import bgwishlist_gif from '../../assets/bgwishlist_gif.gif'
-import './Portfolio.css'
+import './Portfolio.scss'
 
 export default function Portfolio() {
   const [gifcard, setGifcard] = useState()
