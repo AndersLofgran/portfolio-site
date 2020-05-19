@@ -29,11 +29,10 @@
       -ms-flex-align: center;
           align-items: center;
   opacity: 1;
-  height: 300px;
+  height: 30vh;
   -webkit-transition: 1.5s;
   transition: 1.5s;
   margin-right: 40px;
-  transition: 1.5s;
 }
 
 .pic-load {
@@ -47,7 +46,7 @@
       -ms-flex-align: center;
           align-items: center;
   opacity: 0;
-  height: 300px;
+  height: 30vh;
   margin-right: 40px;
 }
 
@@ -62,7 +61,7 @@
 
 .page {
   height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,7 +69,7 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   color: whitesmoke;
-  padding: 100px 200px;
+  padding: 10vh 10vw;
   font-size: 36px;
 }
 
@@ -86,11 +85,11 @@
 }
 
 .home-text {
-  width: 800px;
+  width: 45vw;
 }
 
 .name-text {
-  font-size: 80px;
+  font-size: 4.5vw;
   -webkit-transition: 2s;
   transition: 2s;
   -webkit-transform: translateX(0);
@@ -99,13 +98,14 @@
 }
 
 .name-text-load {
-  font-size: 80px;
+  font-size: 4.5vw;
   -webkit-transform: translateX(50px);
           transform: translateX(50px);
   opacity: 0;
 }
 
 .brand-text {
+  font-size: 2vw;
   color: lightskyblue;
   -webkit-transition: 2s;
   transition: 2s;
@@ -120,6 +120,7 @@
 }
 
 .brand-text-load {
+  font-size: 2vw;
   color: lightskyblue;
   -webkit-transform: translateX(50px);
           transform: translateX(50px);
@@ -135,8 +136,8 @@
   -webkit-transition: 2s;
   transition: 2s;
   opacity: 1;
-  padding: 30px 0 0 0;
-  font-size: 28px;
+  padding: 30px 10px 0 0;
+  font-size: 1.68vw;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -144,7 +145,7 @@
 .about-body-load {
   opacity: 0;
   padding: 30px 0 0 0;
-  font-size: 28px;
+  font-size: 1.68vw;
   -webkit-transform: translateX(50px);
           transform: translateX(50px);
 }
@@ -156,12 +157,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 28px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2vw;
   padding-top: 60px;
 }
 
 .about-skills div {
-  margin-right: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,7 +182,31 @@
 }
 
 .skill-icon {
-  font-size: 80px;
+  font-size: 4vw;
   color: lightskyblue;
+}
+
+.arrow-left {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 4vw;
+  margin: calc(50vh - 30px) 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.arrow-right {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 4vw;
+  margin: calc(50vh - 30px) 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Main.css.map */

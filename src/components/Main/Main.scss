@@ -16,17 +16,16 @@
     justify-content: center;
     align-items: center;
     opacity: 1;
-    height: 300px;
+    height: 30vh;
     transition: 1.5s;
     margin-right: 40px;
-    transition: 1.5s;
   }
     .pic-load {
       display: flex;
       justify-content: center;
       align-items: center;
       opacity: 0;
-      height: 300px;
+      height: 30vh;
       margin-right: 40px;
     }
 
@@ -38,11 +37,11 @@
 
 .page {
   height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   color: whitesmoke;
-  padding: 100px 200px;
+  padding: 10vh 10vw;
   font-size: 36px;
 }
 
@@ -54,62 +53,60 @@
 }
 
 .home-text {
-  width: 800px;
+  width: 45vw;
 }
 
 .name-text {
-  font-size: 80px;
+  font-size: 4.5vw;
   transition: 2s;
   transform: translateX(0);
   opacity: 1;
 }
   .name-text-load {
-    font-size: 80px;
+    font-size: 4.5vw;
     transform: translateX(50px);
     opacity: 0;
   }
 
 .brand-text {
+  font-size: 2vw;
   color: lightskyblue;
   transition: 2s;
   transform: translateX(0);
   opacity: 1;
   padding-bottom: 30px;
-  a {
-    text-decoration: none;
-  }
+  a { text-decoration: none; }
 }
   .brand-text-load {
+    font-size: 2vw;
     color: lightskyblue;
     transform: translateX(50px);
     opacity: 0;
     padding-bottom: 30px;
-    a {
-      text-decoration: none;
-    }
+    a { text-decoration: none; }
   }
 
 .about-body {
   transition: 2s;
   opacity: 1;
-  padding: 30px 0 0 0;
-  font-size: 28px;
+  padding: 30px 10px 0 0;
+  font-size: 1.68vw;
   transform: translateX(0);
 }
   .about-body-load {
     opacity: 0;
     padding: 30px 0 0 0;
-    font-size: 28px;
+    font-size: 1.68vw;
     transform: translateX(50px);
   }
 
 .about-skills {
   display: flex;
   align-items: center;
-  font-size: 28px;
+  justify-content: space-between;
+  font-size: 2vw;
   padding-top: 60px;
   div {
-    margin-right: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,6 +114,24 @@
   }
 }
   .skill-icon {
-    font-size: 80px;
+    font-size: 4vw;
     color: lightskyblue;
   }
+
+.arrow-left {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 4vw;
+  margin: calc(50vh - 30px) 0;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.arrow-right {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 4vw;
+  margin: calc(50vh - 30px) 0;
+  cursor: pointer;
+}

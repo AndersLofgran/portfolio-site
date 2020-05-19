@@ -18,7 +18,6 @@ export default function Contact() {
         {showEmail ?
             <div className='show-email'>
               <p>anders.lofgran@gmail.com</p>
-              {/* <button>Copy</button> */}
             </div>
           :
             <FontAwesomeIcon icon={faPaperPlane} className='icon'/>

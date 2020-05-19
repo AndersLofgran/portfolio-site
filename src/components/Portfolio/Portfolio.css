@@ -2,18 +2,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .card-wrapper {
   height: 300px;
   width: 500px;
   padding: 0 10px;
+  margin-top: 25px;
 }
 
 .card {
@@ -91,7 +94,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-left: 40px;
+  padding-left: 40px;
 }
 
 .card-links a {

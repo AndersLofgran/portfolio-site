@@ -42,15 +42,15 @@
 }
 
 .contact-icon-container .icon {
-  font-size: 200px;
+  font-size: 13vw;
 }
 
 .contact-icon-container h2 {
-  font-size: 40px;
+  font-size: 2.5vw;
 }
 
 .contact-icon-container p {
-  font-size: 24px;
+  font-size: 1.1vw;
 }
 
 .show-email {
