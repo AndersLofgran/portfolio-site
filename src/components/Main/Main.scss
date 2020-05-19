@@ -9,16 +9,31 @@
     font-size: 900px;
     opacity: 0.5;
     filter: blur(2px);
+    transition: 1s;
   }
-  .stack-icon {
-    position: absolute;
-    font-size: 320px;
-    transform: translateX(-520px);
+  .pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    height: 300px;
+    transition: 1.5s;
+    margin-right: 40px;
+    transition: 1.5s;
   }
+    .pic-load {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      height: 300px;
+      margin-right: 40px;
+    }
 
 .main-content {
   display: flex;
   height: 100%;
+  transition: 1s;
 }
 
 .page {
@@ -30,12 +45,78 @@
   padding: 100px 200px;
   font-size: 36px;
 }
-  .page h1 { font-size: 140px; }
-  .page h3 { color: rgba(255, 255, 255, 0.5); }
 
 .home-page {
   display: flex;
-  align-items: center;
   justify-content: center;
   width: 100%;
+  margin-top: 60px;
 }
+
+.home-text {
+  width: 800px;
+}
+
+.name-text {
+  font-size: 80px;
+  transition: 2s;
+  transform: translateX(0);
+  opacity: 1;
+}
+  .name-text-load {
+    font-size: 80px;
+    transform: translateX(50px);
+    opacity: 0;
+  }
+
+.brand-text {
+  color: lightskyblue;
+  transition: 2s;
+  transform: translateX(0);
+  opacity: 1;
+  padding-bottom: 30px;
+  a {
+    text-decoration: none;
+  }
+}
+  .brand-text-load {
+    color: lightskyblue;
+    transform: translateX(50px);
+    opacity: 0;
+    padding-bottom: 30px;
+    a {
+      text-decoration: none;
+    }
+  }
+
+.about-body {
+  transition: 2s;
+  opacity: 1;
+  padding: 30px 0 0 0;
+  font-size: 28px;
+  transform: translateX(0);
+}
+  .about-body-load {
+    opacity: 0;
+    padding: 30px 0 0 0;
+    font-size: 28px;
+    transform: translateX(50px);
+  }
+
+.about-skills {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  padding-top: 60px;
+  div {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    * { margin-bottom: 10px; }
+  }
+}
+  .skill-icon {
+    font-size: 80px;
+    color: lightskyblue;
+  }
