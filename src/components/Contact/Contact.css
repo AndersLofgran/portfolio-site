@@ -62,6 +62,13 @@
   font-size: 1.1vw;
 }
 
+@supports (-ms-ime-align: auto) {
+  .contact-icon-container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .show-email {
   height: 200px;
   display: -webkit-box;

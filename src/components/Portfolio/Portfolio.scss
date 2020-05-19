@@ -14,16 +14,17 @@
 
 .card {
   position: relative;
-  height: 280px;
+  height: 30vh;
   width: 100%;
   padding: 20px;
   border-radius: 6px;
   border: 2px solid rgba(255, 255, 255, 0.7);
   background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
   p {
     padding-top: 20px;
     width: 100%;
-    font-size: 22px;
+    font-size: 2.6vh;
   }
   &:after {
     content: 'Preview';
@@ -86,12 +87,12 @@
 
 
 .gif-hidden, .gif-visible {
+  position: fixed;
   opacity: 0;
   transition: 1s;
-  z-index: -1;
-  position: fixed;
   display: flex;
   top: 0;
+  margin-left: -10vw;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -101,12 +102,14 @@
     transition: 1s;
     transform: translateY(100px);
   }
+  z-index: -1;
 }
 .gif-visible {
+  position: fixed;
   opacity: 1;
-  z-index: 10;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   cursor: pointer;
   img { transform: translateY(0); }
+  z-index: 10;
 }

@@ -34,6 +34,9 @@
   h2 { font-size: 2.5vw; }
   p { font-size: 1.1vw; }
 }
+@supports (-ms-ime-align: auto){
+  .contact-icon-container { justify-content: space-around; }
+}
 
 .show-email {
   height: 200px;

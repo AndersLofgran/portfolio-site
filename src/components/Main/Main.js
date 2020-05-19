@@ -57,11 +57,12 @@ const Main = () => {
                   <h3 className={brandText}><a href="https://www.youtube.com/watch?v=H4M19g0xVJs" target='_blank noopener noreferrer' >Full Stack Web Developer</a></h3>
                   <div className={aboutBody}>
                     <p>
-                      Having come from the medical field and graduating from DevMountain, I have many new exciting skills
-                      that I can't wait to use and develop. Nothing ignites my inner fire to create as easily as programming.
+                      Coming from the medical field and graduating from DevMountain, I have a unique set of skills
+                      to bring to the tech world. With an inner fire for programming and an excitement for learning 
+                      new things, I can't wait to share my talents with the world.
                     </p>
                     <br/>
-                    <p> Currently, I am collaborating on a site/application for connecting innovators and sharing ideas. </p>
+                    <p> Currently, I am collaborating on a web/mobile app for connecting innovators and sharing ideas. </p>
                     <div className='about-skills'>
                       <div> <FontAwesomeIcon className='skill-icon' icon={faJsSquare} />  <h4>JavaScript</h4>   </div>
                       <div> <FontAwesomeIcon className='skill-icon' icon={faReact} />     <h4>React</h4>        </div>
