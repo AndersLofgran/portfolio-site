@@ -42,7 +42,16 @@
 }
 
 .contact-icon-container .icon {
+  font-size: 12vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-icon-container .icon:hover {
+  color: lightskyblue;
   font-size: 13vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .contact-icon-container h2 {

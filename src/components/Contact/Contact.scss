@@ -22,7 +22,15 @@
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.3);
   }
-  .icon { font-size: 13vw; }
+  .icon {
+    font-size: 12vw;
+    transition: 0.3s;
+    &:hover {
+      color: lightskyblue;
+      font-size: 13vw;
+      transition: 0.3s;
+    }
+  }
   h2 { font-size: 2.5vw; }
   p { font-size: 1.1vw; }
 }
