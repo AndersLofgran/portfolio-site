@@ -62,7 +62,7 @@ const Main = () => {
                       new things, I can't wait to share my talents with the world.
                     </p>
                     <br/>
-                    <p> Currently, I am collaborating on a web/mobile app for connecting innovators and sharing ideas. </p>
+                    <p> Currently, I am designing a web & mobile app for connecting innovators and sharing ideas. </p>
                     <div className='about-skills'>
                       <div> <FontAwesomeIcon className='skill-icon' icon={faJsSquare} />  <h4>JavaScript</h4>   </div>
                       <div> <FontAwesomeIcon className='skill-icon' icon={faReact} />     <h4>React</h4>        </div>
