@@ -92,7 +92,11 @@ export default function Portfolio() {
 
         </div>
 
-        <div className={`gif-${gifVis}`} onClick={() => setGifVis('hidden')}>
+        <div  className={`gif-${gifVis}`}
+              onClick={() => {
+                setGifVis('hidden')
+                setGifcard()
+              }}>
           <img src={gifcard} alt=''/>
         </div>
       </SimpleBar>
