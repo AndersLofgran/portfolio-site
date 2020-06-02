@@ -25,7 +25,7 @@ export default function Contact() {
         <h2>Email me</h2>
       </a>
 
-      <a href='https://docs.google.com/document/d/1cMCawldumJw1CPKPBeHq353UiTbsxgzZUAazIhA9HGU/edit?usp=sharing' target='_blank noopener noreferrer' className='contact-icon-container'>
+      <a href='https://docs.google.com/document/d/1MmmhrAOBS9wnwHrl91Md8Z0xspH9MnD9P4LlGelG_Wg/edit?usp=sharing' target='_blank noopener noreferrer' className='contact-icon-container'>
         <FontAwesomeIcon icon={faFileAlt} className='icon'/>
         <h2>Resume</h2>
       </a>
