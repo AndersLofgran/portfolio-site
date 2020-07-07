@@ -10,6 +10,7 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: calc(100vh - 15vh);
 }
 
 .card-wrapper {

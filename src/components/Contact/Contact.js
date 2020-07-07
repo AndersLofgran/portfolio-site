@@ -14,7 +14,7 @@ export default function Contact() {
   
   return (
     <div className='contact-page'>
-      <a className='contact-icon-container' onClick={() => handleShowEmail()}>
+      <button className='contact-icon-container' onClick={() => handleShowEmail()}>
         {showEmail ?
             <div className='show-email'>
               <p>anders.lofgran@gmail.com</p>
@@ -23,7 +23,7 @@ export default function Contact() {
             <FontAwesomeIcon icon={faPaperPlane} className='icon'/>
         }
         <h2>Email me</h2>
-      </a>
+      </button>
 
       <a href='https://docs.google.com/document/d/1MmmhrAOBS9wnwHrl91Md8Z0xspH9MnD9P4LlGelG_Wg/edit?usp=sharing' target='_blank noopener noreferrer' className='contact-icon-container'>
         <FontAwesomeIcon icon={faFileAlt} className='icon'/>

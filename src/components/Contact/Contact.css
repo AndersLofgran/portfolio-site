@@ -32,8 +32,15 @@
   padding: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border: none;
   border-radius: 6px;
   text-decoration: none;
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+.contact-icon-container:focus {
+  outline: none;
 }
 
 .contact-icon-container:hover {
@@ -81,23 +88,5 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.show-email * {
-  margin: 20px 0;
-}
-
-.show-email button {
-  font-size: 18px;
-  padding: 10px 20px;
-  border-radius: 6px;
-  border: 2px solid rgba(255, 255, 255, 0.7);
-  background: rgba(0, 0, 0, 0.2);
-  color: whitesmoke;
-}
-
-.show-email button:hover {
-  background: rgba(255, 255, 255, 0.2);
-  cursor: pointer;
 }
 /*# sourceMappingURL=Contact.css.map */
